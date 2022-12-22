@@ -1,0 +1,21 @@
+body{
+    background-color:darkslateblue ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+form{
+    color:white;
+    padding: 20px 30px;
+    font-size: 25px;
+    margin: 40px auto;
+    border:black solid 20px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}

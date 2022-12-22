@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(36, 48, 178);
+}
+.editContainer{
+    width: 700px;
+    height: 500px;
+    text-align:center;
+    margin:0 auto;
+    background-color: rgb(237, 238, 234);
+    box-shadow: 2px 6px 18px 3px black;
+    padding: 50px;
+}

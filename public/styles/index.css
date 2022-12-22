@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(198, 179, 215);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    color: black;
+}
+.main-container{
+    height: 800px;
+    width: 800px;
+    text-align:center;
+    margin:0 auto;
+    background-color: rgb(20, 179, 185);
+    box-shadow: 2px 6px 18px 3px black;
+    padding: 50px;
+    align-items: center;
+}
+
+.allToys{
+    color:white;
+    padding: 20px 30px;
+    font-size: 25px;
+    margin: 40px auto;
+    border:black solid 20px;
+    height: 500px;
+
+}
+ul{
+    padding: 0;
+
+}
+li{
+    list-style: none;
+    background-color: burlywood;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    
+}
+
+.create{
+    
+ 
+}
+form{
+    position: absolute;
+    right: 10px;
+    
+}
+html::-webkit-scrollbar{
+    width: 4vw;
+    
+}
+html::-webkit-thumb{
+    width: 4vw;
+    scrollbar-color:green;
+}
+html::-webkit-track{
+    width: 4vw;
+    scrollbar-color:red;
+}

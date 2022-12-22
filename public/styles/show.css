@@ -1,0 +1,17 @@
+body{
+    padding-top: 50px;
+    background-color: rosybrown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    color: black;
+
+}
+.productDisplay{
+    width: 700px;
+    height: 500px;
+    text-align:center;
+    margin:0 auto;
+    background-color: rgb(138, 179, 72);
+    box-shadow: 2px 6px 18px 3px black;
+    padding: 50px;
+}

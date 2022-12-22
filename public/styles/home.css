@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: coral;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100vh;
+    color: black;
+    
+}
+header{
+    background-color: rgb(147, 86, 163);
+    padding: 20px;
+    background:url("https://media.istockphoto.com/id/1340698324/photo/a-modern-toy-sorter-made-of-wood-for-studying-flowers-by-preschoolers.jpg?b=1&s=170667a&w=0&k=20&c=3qlcISPj-R22bfy155gDCLTrSDnH_UHqaledxluPJ1I=");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+/* Responsive rules */
+ @media screen and (max-width:677px) {
+    header {
+       height:200px;
+    }    
+} 
+@media screen and (max-width:379px) {
+    header {
+       height:100px;
+    }    
+} 
+
+h1{
+    text-align: center;  
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right:20px;
+    background-color: bisque;
+    border-radius: 3px;
+    padding: 2px; 
+}
+
+li:hover{
+    background-color: rgb(61, 63, 206);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.triple-section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+
+}
+/* Responsive rules */
+@media screen and (max-width:1429px) {
+    .triple-section {
+       display:block; 
+    }   
+}
+@media screen and (min-width:400px) {
+    .triple-section {
+         background-color: rgb(125, 22, 81); 
+    }   
+}
+.triple-section figure{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    text-transform: uppercase;
+     
+}
+.triple-section figure img{
+    width: 300px;
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+}
+footer{
+background-color: black;
+padding: 20px 20px;
+color: grey;
+font-size: 12px;
+text-align: center;
+}
+
