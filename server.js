@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const methodOverride = require('method-override');
 const Toys = require('./models/toys.js');
 //set a variable of port to 3000
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 // set express and configure(middleware and more) to a variable
 const app = express();// make webserver // create express application server 
 app.use(express.static(__dirname + '/public'));// inorder to link these files we need to call app.use
@@ -94,7 +94,7 @@ app.get("/toys/:id", function (req, res) {
   });
 });
 //set your app to listen to port and console log listening
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("listening");
 });
 
