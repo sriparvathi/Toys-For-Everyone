@@ -15,3 +15,9 @@ body{
     box-shadow: 2px 6px 18px 3px black;
     padding: 50px;
 }
+.form{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+}

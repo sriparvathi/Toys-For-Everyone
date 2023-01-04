@@ -25,9 +25,15 @@ class Show extends React.Component {
             )}
             <br />
             </div>
-            <a href={`/toys/${Toys.id}/edit`}>Edit</a>
-            <br />
-            <a href='/toys'>DELETE</a>
+             {/* <a href={`/toys/${Toys.id}/edit`}>Edit</a>
+            <br />  */}
+             <form className='form'
+                  action={`/toys/${Toys.id}?_method=DELETE`}
+                  method='POST'>
+                  <input type='submit' value='DELETE' />
+                  <a href={`/toys/${Toys.id}/edit`}> Edit </a>
+                </form> 
+            
          </div>
       );
    }
